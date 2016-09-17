@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" Inherits="MainGA" CodeBehind="MainGA.Master.cs" AutoEventWireup="True" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        @media only screen and (min-width: 700px) {
+
+            imgsize {
+                width: 50%;
+            }
+        }
+
+        @media only screen and (min-width: 500px) {
+
+
+            imgsize {
+                width: 60%;
+            }
+        }
+
+        @media only screen and (min-width: 360px) {
+
+            imgsize {
+                width: 90%;
+            }
+        }
+
+        @media only screen and (min-width: 300px) {
+
+
+            imgsize {
+                width: 100%;
+            }
+        }
+
+        .toolbar ul {
+            display: table-row;
+        }
+
+            .toolbar ul li {
+                display: block;
+                height: 100px;
+                list-style-type: none;
+                margin: 10px;
+                vertical-align: middle;
+            }
+
+            .toolbar ul a:hover {
+                color: #3D8B40;
+            }
+
+            .toolbar ul li a {
+                display: table-cell;
+                vertical-align: middle;
+                height: 100px;
+                border: none;
+                font-family: Georgia,serif;
+                color: #551A8B;
+                font-variant: small-caps;
+                text-transform: none;
+                font-weight: 100;
+                margin-bottom: 0;
+                font-size: 82px;
+            }
+
+            .toolbar ul li.button a {
+                height: 50px;
+                border: solid 1px black;
+                font-family: Georgia,serif;
+                color: #4E443C;
+                font-variant: small-caps;
+                text-transform: none;
+                font-weight: 100;
+                margin-bottom: 0;
+                font-size: 82px;
+            }
+
+        #menulink {
+            display: none;
+        }
+
+        .Titulo {
+            display: table-cell;
+            vertical-align: middle;
+            height: 100px;
+            width:100%;
+            border: none;
+            font-family: Georgia,serif;
+            color: #4E443C;
+            font-variant: small-caps;
+            text-transform: none;
+            font-weight: 100;
+            margin-bottom: 0;
+            font-size: 82px;
+            text-align:left;
+        }
+
+            .Titulo div:hover {
+                color: #3D8B40;
+            }
+
+        .imgsize {
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" language="JavaScript">
+        function showOrHide(zap) {
+            if (document.getElementById) {
+                var abra = document.getElementById(zap).style;
+                if (abra.display == "block") {
+                    abra.display = "none";
+                } else {
+                    abra.display = "block";
+                }
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+    <form id="form1" runat="server">
+        &nbsp;<div style="left: auto; right: auto; width: 100%; text-align: center;">
+            
+                <div class="toolbar" style="text-align: center;">
+         <table  style ="width:100%;"><tr  style ="width:100%;"><td>           <div style ="width:100%;">
+             <asp:Image ID="Image1" runat="server" ImageUrl="GaleriaDeArte/Oficina.jpg" />
+                    </div>
+             </td></tr><tr><td>
+                    <div class="Titulo">
+                        <a href="#" onclick="return  showOrHide('menulink');">Galer&iacute;a de Arte Cruz Sunu</a>
+                    </div>
+
+                    <ul id="menulink">
+                        <li><a class="navbar-brand" href="http://localhost:8080/GaleriaDeArte.aspx">Menu</a></li>
+                        <li><a class="navbar-brand" href="http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Comprar.aspx">View Gallery -- </a></li>
+                        <li><a class="navbar-brand" href="http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Validar.aspx?adonde=Imagenes">Subir Imagenes</a></li>
+                        <li><a class="navbar-brand" href="http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Validar.aspx?adonde=Factura">Descripci&oacute;n Factura</a></li>
+                        <li><a class="navbar-brand" href="http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Validar.aspx?adonde=Precios">Precios</a></li>
+                        <li><a class="navbar-brand" href="http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Validar.aspx?adonde=VerPedidos">Ver Mis Pedidos</a></li>
+                    </ul>
+                 </td></tr></table>
+
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+    </form>
+
+</body>
+
+
