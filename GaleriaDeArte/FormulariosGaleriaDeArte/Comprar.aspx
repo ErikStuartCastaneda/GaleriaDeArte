@@ -3,25 +3,15 @@
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="https://www.grupo-hesse.com/js/jquery.js"></script>
     <script type="text/javascript" src="https://www.grupo-hesse.com/js/jquery.min.js"></script>
     <style type="text/css">
         @media only screen and (min-width: 700px) {
 
-
-            table {
-                font-size: 42px;
+            body {
+            zoom: 200%;
             }
-
-            DropDownList {
-                font-size: 42px;
-            }
-
-
-            dimension {
-                height: 100%;
-                font-size: 42px;
-            }
+             
         }
 
         @media only screen and (min-width: 500px) {

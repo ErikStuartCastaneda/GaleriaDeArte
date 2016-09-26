@@ -86,6 +86,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\AjaxControlToolkit.dll" />
+    <EmbeddedResource Include="bin\AjaxPro.JSON.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="bin\GaleriaDeArte.dll" />
     <Content Include="bin\GaleriaDeArte.XmlSerializers.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -244,7 +247,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Logs\" />
-    <Folder Include="Reportes\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -266,7 +268,7 @@
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormulariosGaleriaDeArte\FacturaGaleriaDeArte.rdlc" />
+    <EmbeddedResource Include="ReportesGaleriaDeArte\FacturaGaleriaDeArte.rdlc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

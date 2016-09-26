@@ -32,7 +32,7 @@
 
 
              <rsweb:ReportViewer ID="ReportViewer1" runat="server" Height="524px" Width="741px" Font-Names="Verdana" Font-Size="8pt" WaitMessageFont-Names="Verdana" WaitMessageFont-Size="14pt">
-                 <LocalReport ReportPath="FormulariosGaleriaDeArte\FacturaGaleriaDeArte.rdlc">
+                 <LocalReport ReportPath="ReportesGaleriaDeArte\FacturaGaleriaDeArte.rdlc">
                    <DataSources>
                         <rsweb:ReportDataSource DataSourceId="ObjectDataSource1" Name="FacturaGaleriaDeArte" />
                     </DataSources>
