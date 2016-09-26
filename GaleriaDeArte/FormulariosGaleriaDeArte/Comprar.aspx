@@ -2336,7 +2336,7 @@
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
                     GaleriaDeArte63 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte63" class="label" type="text" />t="server" Width="65px">
+                    <input id="PrecioGaleriaDeArte63" class="label" type="text" />
 
                 </div>
                 <div style="width: 100%;">
@@ -2948,555 +2948,557 @@
             }
         }
 
-        function AgregarValor(cual, precio) {
-            var control = "#PrecioGaleriaDeArte" + cual;
-
-            if (cual == "1") {
-                var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte1.ClientID%>");
-                var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-                precio = precio * cantidad;
-                $(control).val(precio);
-
-            }
-            if (cual == "2") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte2.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "3") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte3.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "4") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte4.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "5") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte5.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "6") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte6.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "7") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte7.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "8") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte8.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "9") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte9.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "10") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte10.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "11") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte11.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "12") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte12.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "13") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte13.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "14") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte14.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "15") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte15.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "16") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte16.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "17") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte17.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "18") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte18.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "19") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte19.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "20") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte20.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "21") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte21.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "22") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte22.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "23") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte23.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "24") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte24.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "25") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte25.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "26") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte26.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "27") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte27.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "28") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte28.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "29") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte29.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "30") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte30.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "31") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte31.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "32") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte32.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "33") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte33.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "34") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte34.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "35") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte35.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "36") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte36.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "37") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte37.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "38") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte38.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "39") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte39.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "40") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte40.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "41") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte41.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "42") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte42.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "43") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte43.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "44") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte44.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "45") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte45.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "46") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte46.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "47") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte47.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "48") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte48.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "49") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte49.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "50") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte50.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "51") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte51.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "52") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte52.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "53") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte53.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "54") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte54.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "55") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte55.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "56") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte56.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "57") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte57.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "58") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte58.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "59") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte59.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "60") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte60.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "61") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte61.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "62") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte62.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "63") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte63.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "64") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte64.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "65") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte65.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "66") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte66.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "67") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte67.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "68") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte68.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "69") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte69.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "70") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte70.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "71") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte71.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "72") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte72.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "73") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte73.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "74") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte74.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "75") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte75.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "76") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte76.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-            if (cual == "77") {
-            var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte77.ClientID%>");
-            var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
-            precio = precio * cantidad;
-            $(control).val(precio);
-
-            }
-
-
-
-
-
-
-        }
+
+function AgregarValor(cual, precio) {
+    var control = "#PrecioGaleriaDeArte" + cual;
+
+    if (cual == "1") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte1.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "2") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte2.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "3") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte3.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "4") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte4.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "5") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte5.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "6") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte6.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "7") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte7.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "8") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte8.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "9") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte9.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "10") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte10.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "11") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte11.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "12") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte12.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "13") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte13.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "14") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte14.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "15") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte15.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "16") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte16.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "17") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte17.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "18") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte18.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "19") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte19.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "20") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte20.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "21") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte21.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "22") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte22.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "23") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte23.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "24") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte24.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "25") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte25.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "26") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte26.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "27") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte27.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "28") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte28.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "29") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte29.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "30") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte30.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "31") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte31.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "32") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte32.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "33") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte33.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "34") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte34.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "35") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte35.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "36") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte36.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "37") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte37.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "38") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte38.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "39") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte39.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "40") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte40.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "41") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte41.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "42") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte42.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "43") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte43.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "44") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte44.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "45") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte45.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "46") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte46.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "47") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte47.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "48") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte48.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "49") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte49.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "50") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte50.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "51") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte51.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "52") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte52.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "53") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte53.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "54") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte54.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "55") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte55.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "56") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte56.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "57") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte57.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "58") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte58.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "59") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte59.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "60") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte60.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "61") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte61.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "62") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte62.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "63") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte63.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "64") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte64.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "65") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte65.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "66") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte66.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "67") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte67.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "68") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte68.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "69") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte69.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "70") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte70.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "71") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte71.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "72") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte72.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "73") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte73.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "74") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte74.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "75") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte75.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "76") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte76.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+    if (cual == "77") {
+        var Cuantos = document.getElementById("<%=CantidadGaleriaDeArte77.ClientID%>");
+        var cantidad = Cuantos.options[Cuantos.selectedIndex].text;
+        precio = precio * cantidad;
+        $(control).val(precio.toFixed(2));
+
+    }
+
+
+
+
+
+
+}
+
         function MostrarIcono(_nombre, cual) {
 
             TraePrecio(_nombre, cual);
