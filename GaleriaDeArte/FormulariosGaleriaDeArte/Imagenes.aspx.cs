@@ -59,6 +59,8 @@ namespace GaleriaDeArte
 
             string fileName = this.HiddenField1.Value;
             string address = PathMap.ServerPath();
+            Helper.RegistrarEvento("Subiendo imagen " + address);
+
             address = address + fileName + ".bmp";
             Helper.RegistrarEvento("Verificando acceso a path :  " + address);
             var FileExtension = FileUpload1.PostedFile.FileName;

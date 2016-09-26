@@ -13,15 +13,6 @@ namespace GaleriaDeArte {
     public partial class Comprar {
         
         /// <summary>
-        /// ScriptManager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
-        
-        /// <summary>
         /// HiddenField2 control.
         /// </summary>
         /// <remarks>
@@ -29,33 +20,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField HiddenField2;
-        
-        /// <summary>
-        /// UpdatePanel2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel2;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte1;
-        
-        /// <summary>
-        /// Panel1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
         
         /// <summary>
         /// CantidadGaleriaDeArte1 control.
@@ -76,33 +40,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte1;
         
         /// <summary>
-        /// UpdatePanel3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel3;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte2;
-        
-        /// <summary>
-        /// Panel2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel2;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte2 control.
         /// </summary>
         /// <remarks>
@@ -119,33 +56,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte2;
-        
-        /// <summary>
-        /// UpdatePanel4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel4;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte3;
-        
-        /// <summary>
-        /// Panel3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel3;
         
         /// <summary>
         /// CantidadGaleriaDeArte3 control.
@@ -166,33 +76,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte3;
         
         /// <summary>
-        /// UpdatePanel5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel5;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte4;
-        
-        /// <summary>
-        /// Panel4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte4 control.
         /// </summary>
         /// <remarks>
@@ -209,33 +92,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte4;
-        
-        /// <summary>
-        /// UpdatePanel6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel6;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte5;
-        
-        /// <summary>
-        /// Panel5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel5;
         
         /// <summary>
         /// CantidadGaleriaDeArte5 control.
@@ -256,33 +112,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte5;
         
         /// <summary>
-        /// UpdatePanel7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel7;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte6;
-        
-        /// <summary>
-        /// Panel6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel6;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte6 control.
         /// </summary>
         /// <remarks>
@@ -299,33 +128,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte6;
-        
-        /// <summary>
-        /// UpdatePanel8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel8;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte7;
-        
-        /// <summary>
-        /// Panel7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel7;
         
         /// <summary>
         /// CantidadGaleriaDeArte7 control.
@@ -346,33 +148,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte7;
         
         /// <summary>
-        /// UpdatePanel9 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel9;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte8;
-        
-        /// <summary>
-        /// Panel8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel8;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte8 control.
         /// </summary>
         /// <remarks>
@@ -389,33 +164,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte8;
-        
-        /// <summary>
-        /// UpdatePanel10 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel10;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte9 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte9;
-        
-        /// <summary>
-        /// Panel9 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel9;
         
         /// <summary>
         /// CantidadGaleriaDeArte9 control.
@@ -436,33 +184,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte9;
         
         /// <summary>
-        /// UpdatePanel11 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel11;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte10 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte10;
-        
-        /// <summary>
-        /// Panel10 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel10;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte10 control.
         /// </summary>
         /// <remarks>
@@ -479,33 +200,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte10;
-        
-        /// <summary>
-        /// UpdatePanel12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel12;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte11 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte11;
-        
-        /// <summary>
-        /// Panel11 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel11;
         
         /// <summary>
         /// CantidadGaleriaDeArte11 control.
@@ -526,33 +220,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte11;
         
         /// <summary>
-        /// UpdatePanel13 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel13;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte12;
-        
-        /// <summary>
-        /// Panel12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel12;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte12 control.
         /// </summary>
         /// <remarks>
@@ -569,33 +236,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte12;
-        
-        /// <summary>
-        /// UpdatePanel14 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel14;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte13 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte13;
-        
-        /// <summary>
-        /// Panel13 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel13;
         
         /// <summary>
         /// CantidadGaleriaDeArte13 control.
@@ -616,33 +256,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte13;
         
         /// <summary>
-        /// UpdatePanel15 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel15;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte14 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte14;
-        
-        /// <summary>
-        /// Panel14 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel14;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte14 control.
         /// </summary>
         /// <remarks>
@@ -659,33 +272,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte14;
-        
-        /// <summary>
-        /// UpdatePanel16 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel16;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte15 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte15;
-        
-        /// <summary>
-        /// Panel15 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel15;
         
         /// <summary>
         /// CantidadGaleriaDeArte15 control.
@@ -706,33 +292,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte15;
         
         /// <summary>
-        /// UpdatePanel17 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel17;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte16 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte16;
-        
-        /// <summary>
-        /// Panel16 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel16;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte16 control.
         /// </summary>
         /// <remarks>
@@ -749,33 +308,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte16;
-        
-        /// <summary>
-        /// UpdatePanel18 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel18;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte17 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte17;
-        
-        /// <summary>
-        /// Panel17 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel17;
         
         /// <summary>
         /// CantidadGaleriaDeArte17 control.
@@ -796,33 +328,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte17;
         
         /// <summary>
-        /// UpdatePanel19 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel19;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte18 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte18;
-        
-        /// <summary>
-        /// Panel18 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel18;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte18 control.
         /// </summary>
         /// <remarks>
@@ -839,33 +344,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte18;
-        
-        /// <summary>
-        /// UpdatePanel20 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel20;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte19 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte19;
-        
-        /// <summary>
-        /// Panel19 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel19;
         
         /// <summary>
         /// CantidadGaleriaDeArte19 control.
@@ -886,33 +364,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte19;
         
         /// <summary>
-        /// UpdatePanel21 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel21;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte20 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte20;
-        
-        /// <summary>
-        /// Panel20 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel20;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte20 control.
         /// </summary>
         /// <remarks>
@@ -929,33 +380,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte20;
-        
-        /// <summary>
-        /// UpdatePanel22 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel22;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte21 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte21;
-        
-        /// <summary>
-        /// Panel21 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel21;
         
         /// <summary>
         /// CantidadGaleriaDeArte21 control.
@@ -976,33 +400,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte21;
         
         /// <summary>
-        /// UpdatePanel23 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel23;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte22 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte22;
-        
-        /// <summary>
-        /// Panel22 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel22;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte22 control.
         /// </summary>
         /// <remarks>
@@ -1019,33 +416,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte22;
-        
-        /// <summary>
-        /// UpdatePanel24 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel24;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte23 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte23;
-        
-        /// <summary>
-        /// Panel23 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel23;
         
         /// <summary>
         /// CantidadGaleriaDeArte23 control.
@@ -1066,33 +436,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte23;
         
         /// <summary>
-        /// UpdatePanel25 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel25;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte24 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte24;
-        
-        /// <summary>
-        /// Panel24 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel24;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte24 control.
         /// </summary>
         /// <remarks>
@@ -1109,33 +452,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte24;
-        
-        /// <summary>
-        /// UpdatePanel26 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel26;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte25 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte25;
-        
-        /// <summary>
-        /// Panel25 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel25;
         
         /// <summary>
         /// CantidadGaleriaDeArte25 control.
@@ -1156,33 +472,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte25;
         
         /// <summary>
-        /// UpdatePanel27 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel27;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte26 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte26;
-        
-        /// <summary>
-        /// Panel26 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel26;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte26 control.
         /// </summary>
         /// <remarks>
@@ -1199,33 +488,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte26;
-        
-        /// <summary>
-        /// UpdatePanel28 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel28;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte27 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte27;
-        
-        /// <summary>
-        /// Panel27 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel27;
         
         /// <summary>
         /// CantidadGaleriaDeArte27 control.
@@ -1246,33 +508,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte27;
         
         /// <summary>
-        /// UpdatePanel29 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel29;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte28 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte28;
-        
-        /// <summary>
-        /// Panel28 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel28;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte28 control.
         /// </summary>
         /// <remarks>
@@ -1289,33 +524,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte28;
-        
-        /// <summary>
-        /// UpdatePanel30 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel30;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte29 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte29;
-        
-        /// <summary>
-        /// Panel29 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel29;
         
         /// <summary>
         /// CantidadGaleriaDeArte29 control.
@@ -1336,33 +544,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte29;
         
         /// <summary>
-        /// UpdatePanel31 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel31;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte30 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte30;
-        
-        /// <summary>
-        /// Panel30 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel30;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte30 control.
         /// </summary>
         /// <remarks>
@@ -1379,33 +560,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte30;
-        
-        /// <summary>
-        /// UpdatePanel32 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel32;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte31 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte31;
-        
-        /// <summary>
-        /// Panel31 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel31;
         
         /// <summary>
         /// CantidadGaleriaDeArte31 control.
@@ -1426,33 +580,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte31;
         
         /// <summary>
-        /// UpdatePanel33 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel33;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte32 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte32;
-        
-        /// <summary>
-        /// Panel32 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel32;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte32 control.
         /// </summary>
         /// <remarks>
@@ -1469,33 +596,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte32;
-        
-        /// <summary>
-        /// UpdatePanel34 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel34;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte33 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte33;
-        
-        /// <summary>
-        /// Panel33 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel33;
         
         /// <summary>
         /// CantidadGaleriaDeArte33 control.
@@ -1516,33 +616,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte33;
         
         /// <summary>
-        /// UpdatePanel35 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel35;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte34 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte34;
-        
-        /// <summary>
-        /// Panel34 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel34;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte34 control.
         /// </summary>
         /// <remarks>
@@ -1559,33 +632,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte34;
-        
-        /// <summary>
-        /// UpdatePanel36 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel36;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte35 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte35;
-        
-        /// <summary>
-        /// Panel35 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel35;
         
         /// <summary>
         /// CantidadGaleriaDeArte35 control.
@@ -1606,33 +652,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte35;
         
         /// <summary>
-        /// UpdatePanel37 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel37;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte36 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte36;
-        
-        /// <summary>
-        /// Panel36 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel36;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte36 control.
         /// </summary>
         /// <remarks>
@@ -1649,33 +668,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte36;
-        
-        /// <summary>
-        /// UpdatePanel38 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel38;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte37 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte37;
-        
-        /// <summary>
-        /// Panel37 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel37;
         
         /// <summary>
         /// CantidadGaleriaDeArte37 control.
@@ -1696,33 +688,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte37;
         
         /// <summary>
-        /// UpdatePanel39 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel39;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte38 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte38;
-        
-        /// <summary>
-        /// Panel38 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel38;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte38 control.
         /// </summary>
         /// <remarks>
@@ -1739,33 +704,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte38;
-        
-        /// <summary>
-        /// UpdatePanel40 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel40;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte39 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte39;
-        
-        /// <summary>
-        /// Panel39 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel39;
         
         /// <summary>
         /// CantidadGaleriaDeArte39 control.
@@ -1786,33 +724,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte39;
         
         /// <summary>
-        /// UpdatePanel41 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel41;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte40 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte40;
-        
-        /// <summary>
-        /// Panel40 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel40;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte40 control.
         /// </summary>
         /// <remarks>
@@ -1829,33 +740,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte40;
-        
-        /// <summary>
-        /// UpdatePanel42 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel42;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte41 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte41;
-        
-        /// <summary>
-        /// Panel41 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel41;
         
         /// <summary>
         /// CantidadGaleriaDeArte41 control.
@@ -1876,33 +760,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte41;
         
         /// <summary>
-        /// UpdatePanel43 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel43;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte42 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte42;
-        
-        /// <summary>
-        /// Panel42 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel42;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte42 control.
         /// </summary>
         /// <remarks>
@@ -1919,33 +776,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte42;
-        
-        /// <summary>
-        /// UpdatePanel44 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel44;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte43 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte43;
-        
-        /// <summary>
-        /// Panel43 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel43;
         
         /// <summary>
         /// CantidadGaleriaDeArte43 control.
@@ -1966,33 +796,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte43;
         
         /// <summary>
-        /// UpdatePanel45 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel45;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte44 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte44;
-        
-        /// <summary>
-        /// Panel44 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel44;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte44 control.
         /// </summary>
         /// <remarks>
@@ -2009,33 +812,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte44;
-        
-        /// <summary>
-        /// UpdatePanel46 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel46;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte45 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte45;
-        
-        /// <summary>
-        /// Panel45 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel45;
         
         /// <summary>
         /// CantidadGaleriaDeArte45 control.
@@ -2056,33 +832,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte45;
         
         /// <summary>
-        /// UpdatePanel47 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel47;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte46 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte46;
-        
-        /// <summary>
-        /// Panel46 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel46;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte46 control.
         /// </summary>
         /// <remarks>
@@ -2099,33 +848,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte46;
-        
-        /// <summary>
-        /// UpdatePanel48 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel48;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte47 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte47;
-        
-        /// <summary>
-        /// Panel47 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel47;
         
         /// <summary>
         /// CantidadGaleriaDeArte47 control.
@@ -2146,33 +868,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte47;
         
         /// <summary>
-        /// UpdatePanel49 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel49;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte48 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte48;
-        
-        /// <summary>
-        /// Panel48 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel48;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte48 control.
         /// </summary>
         /// <remarks>
@@ -2189,33 +884,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte48;
-        
-        /// <summary>
-        /// UpdatePanel50 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel50;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte49 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte49;
-        
-        /// <summary>
-        /// Panel49 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel49;
         
         /// <summary>
         /// CantidadGaleriaDeArte49 control.
@@ -2236,33 +904,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte49;
         
         /// <summary>
-        /// UpdatePanel51 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel51;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte50 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte50;
-        
-        /// <summary>
-        /// Panel50 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel50;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte50 control.
         /// </summary>
         /// <remarks>
@@ -2279,33 +920,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte50;
-        
-        /// <summary>
-        /// UpdatePanel52 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel52;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte51 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte51;
-        
-        /// <summary>
-        /// Panel51 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel51;
         
         /// <summary>
         /// CantidadGaleriaDeArte51 control.
@@ -2326,33 +940,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte51;
         
         /// <summary>
-        /// UpdatePanel54 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel54;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte52 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte52;
-        
-        /// <summary>
-        /// Panel52 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel52;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte52 control.
         /// </summary>
         /// <remarks>
@@ -2369,33 +956,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte52;
-        
-        /// <summary>
-        /// UpdatePanel55 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel55;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte53 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte53;
-        
-        /// <summary>
-        /// Panel53 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel53;
         
         /// <summary>
         /// CantidadGaleriaDeArte53 control.
@@ -2416,33 +976,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte53;
         
         /// <summary>
-        /// UpdatePanel56 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel56;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte54 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte54;
-        
-        /// <summary>
-        /// Panel54 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel54;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte54 control.
         /// </summary>
         /// <remarks>
@@ -2459,33 +992,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte54;
-        
-        /// <summary>
-        /// UpdatePanel57 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel57;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte55 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte55;
-        
-        /// <summary>
-        /// Panel55 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel55;
         
         /// <summary>
         /// CantidadGaleriaDeArte55 control.
@@ -2506,33 +1012,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte55;
         
         /// <summary>
-        /// UpdatePanel58 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel58;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte56 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte56;
-        
-        /// <summary>
-        /// Panel56 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel56;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte56 control.
         /// </summary>
         /// <remarks>
@@ -2549,33 +1028,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte56;
-        
-        /// <summary>
-        /// UpdatePanel59 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel59;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte57 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte57;
-        
-        /// <summary>
-        /// Panel57 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel57;
         
         /// <summary>
         /// CantidadGaleriaDeArte57 control.
@@ -2596,33 +1048,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte57;
         
         /// <summary>
-        /// UpdatePanel60 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel60;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte58 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte58;
-        
-        /// <summary>
-        /// Panel58 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel58;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte58 control.
         /// </summary>
         /// <remarks>
@@ -2639,33 +1064,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte58;
-        
-        /// <summary>
-        /// UpdatePanel61 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel61;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte59 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte59;
-        
-        /// <summary>
-        /// Panel59 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel59;
         
         /// <summary>
         /// CantidadGaleriaDeArte59 control.
@@ -2686,33 +1084,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte59;
         
         /// <summary>
-        /// UpdatePanel62 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel62;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte60 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte60;
-        
-        /// <summary>
-        /// Panel60 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel60;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte60 control.
         /// </summary>
         /// <remarks>
@@ -2729,33 +1100,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte60;
-        
-        /// <summary>
-        /// UpdatePanel63 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel63;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte61 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte61;
-        
-        /// <summary>
-        /// Panel61 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel61;
         
         /// <summary>
         /// CantidadGaleriaDeArte61 control.
@@ -2776,33 +1120,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte61;
         
         /// <summary>
-        /// UpdatePanel64 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel64;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte62 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte62;
-        
-        /// <summary>
-        /// Panel62 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel62;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte62 control.
         /// </summary>
         /// <remarks>
@@ -2819,33 +1136,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte62;
-        
-        /// <summary>
-        /// UpdatePanel65 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel65;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte63 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte63;
-        
-        /// <summary>
-        /// Panel63 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel63;
         
         /// <summary>
         /// CantidadGaleriaDeArte63 control.
@@ -2866,33 +1156,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte63;
         
         /// <summary>
-        /// UpdatePanel66 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel66;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte64 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte64;
-        
-        /// <summary>
-        /// Panel64 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel64;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte64 control.
         /// </summary>
         /// <remarks>
@@ -2909,33 +1172,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte64;
-        
-        /// <summary>
-        /// UpdatePanel67 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel67;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte65 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte65;
-        
-        /// <summary>
-        /// Panel65 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel65;
         
         /// <summary>
         /// CantidadGaleriaDeArte65 control.
@@ -2956,33 +1192,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte65;
         
         /// <summary>
-        /// UpdatePanel68 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel68;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte66 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte66;
-        
-        /// <summary>
-        /// Panel66 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel66;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte66 control.
         /// </summary>
         /// <remarks>
@@ -2999,33 +1208,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte66;
-        
-        /// <summary>
-        /// UpdatePanel69 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel69;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte67 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte67;
-        
-        /// <summary>
-        /// Panel67 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel67;
         
         /// <summary>
         /// CantidadGaleriaDeArte67 control.
@@ -3046,33 +1228,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte67;
         
         /// <summary>
-        /// UpdatePanel70 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel70;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte68 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte68;
-        
-        /// <summary>
-        /// Panel68 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel68;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte68 control.
         /// </summary>
         /// <remarks>
@@ -3089,33 +1244,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte68;
-        
-        /// <summary>
-        /// UpdatePanel71 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel71;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte69 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte69;
-        
-        /// <summary>
-        /// Panel69 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel69;
         
         /// <summary>
         /// CantidadGaleriaDeArte69 control.
@@ -3136,33 +1264,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte69;
         
         /// <summary>
-        /// UpdatePanel72 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel72;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte70 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte70;
-        
-        /// <summary>
-        /// Panel70 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel70;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte70 control.
         /// </summary>
         /// <remarks>
@@ -3179,33 +1280,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte70;
-        
-        /// <summary>
-        /// UpdatePanel74 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel74;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte71 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte71;
-        
-        /// <summary>
-        /// Panel71 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel71;
         
         /// <summary>
         /// CantidadGaleriaDeArte71 control.
@@ -3226,33 +1300,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte71;
         
         /// <summary>
-        /// UpdatePanel75 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel75;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte72 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte72;
-        
-        /// <summary>
-        /// Panel72 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel72;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte72 control.
         /// </summary>
         /// <remarks>
@@ -3269,33 +1316,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte72;
-        
-        /// <summary>
-        /// UpdatePanel76 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel76;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte73 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte73;
-        
-        /// <summary>
-        /// Panel73 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel73;
         
         /// <summary>
         /// CantidadGaleriaDeArte73 control.
@@ -3316,33 +1336,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte73;
         
         /// <summary>
-        /// UpdatePanel77 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel77;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte74 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte74;
-        
-        /// <summary>
-        /// Panel74 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel74;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte74 control.
         /// </summary>
         /// <remarks>
@@ -3359,33 +1352,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte74;
-        
-        /// <summary>
-        /// UpdatePanel78 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel78;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte75 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte75;
-        
-        /// <summary>
-        /// Panel75 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel75;
         
         /// <summary>
         /// CantidadGaleriaDeArte75 control.
@@ -3406,33 +1372,6 @@ namespace GaleriaDeArte {
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte75;
         
         /// <summary>
-        /// UpdatePanel79 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel79;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte76 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte76;
-        
-        /// <summary>
-        /// Panel76 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel76;
-        
-        /// <summary>
         /// CantidadGaleriaDeArte76 control.
         /// </summary>
         /// <remarks>
@@ -3449,33 +1388,6 @@ namespace GaleriaDeArte {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList SelectGaleriaDeArte76;
-        
-        /// <summary>
-        /// UpdatePanel80 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel80;
-        
-        /// <summary>
-        /// PrecioGaleriaDeArte77 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PrecioGaleriaDeArte77;
-        
-        /// <summary>
-        /// Panel77 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel77;
         
         /// <summary>
         /// CantidadGaleriaDeArte77 control.

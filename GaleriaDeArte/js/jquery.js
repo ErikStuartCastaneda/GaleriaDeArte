@@ -4050,33 +4050,25 @@ function LlenaGridSH(data) {
     document.getElementById('SigSH').disabled = false;
 
 }
-function SiguienteSH() {
-    var _fechaini = document.getElementById("FechaIni").value;
-    var _fechafin = document.getElementById("FechaFin").value;
-    if (_fechaini == "")
-    { alert("Debe llenar la fecha inicial para seguir el proceso."); return; }
-    if (_fechafin == "")
-    { alert("Debe llenar la fecha final para seguir el proceso."); return; }
-    var _pivote = $('#lblSH').val();
-    var tipo = "SiguienteSH";
-
-
+function TraePrecio(_nombre, _numero) {
+ 
+ 
     $.ajax({
         async: true,
         type: "GET",
-        url: "../GraficaAvtGtH.ashx",
-        data: ({ FechaIni: _fechaini, FechaFin: _fechafin, Tipo: tipo, Pivote: _pivote }),
+        url: "http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/GaleriaDeArte.ashx",
+        data: ({ Nombre: _nombre }),
         cache: false,
         contentType: "application/x-json; charset=utf-8",
         dataType: "json",
         success: function (msg) {
             try {
-                if (msg.SH[0] != null) {
-                    LlenaGridSH(msg.SH);
-                }
+                var price = msg.Precio.Valor;
+                AgregarValor(_numero, price.toString());
+ 
+      
             } catch (e) {
-                document.getElementById('SigSH').disabled = true;
-                document.getElementById('AntSH').disabled = false;
+                alert(e.message);
             }
 
 
