@@ -9,7 +9,7 @@
         @media only screen and (min-width: 700px) {
 
             body {
-            zoom: 200%;
+            /*zoom: 200%;*/
             }
              
         }
@@ -141,13 +141,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     &nbsp;<div class="loader">
     </div>
-
+    <asp:HiddenField ID="HiddenField2" runat="server" />
     <table style="background-color: #2EFEF7; color: Blue; width: 100%; text-align: left;">
         <tr>
-            <td>
+            <td colspan="2">
                 <br />
-                Orden de Pedido
-                        <asp:HiddenField ID="HiddenField2" runat="server" />
+               Gallery items for sale
+                        
             </td>
         </tr>
 
@@ -157,11 +157,11 @@
             </td>
 
             <td class="auto-style1" style="text-align: left;">
-                <div style="width: 66%; display: inline-block;">
-                    GaleriaDeArte1 Q._
-                <input id="PrecioGaleriaDeArte1" class="label" type="text" />
-                    <img id="Espera1" alt="" src="#" />
-                </div>
+                 <div style="width: 100%">
+                     <a>GaleriaDeArte1</a>
+                     <div> <div> <a>Price $</a>  
+                    <input id="PrecioGaleriaDeArte1" class="label" type="text" readonly /></div></div>
+             
                 <div>
 
                     <asp:DropDownList ID="CantidadGaleriaDeArte1" runat="server" AutoPostBack="False"
@@ -182,7 +182,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte1" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         onchange="MostrarIcono('GaleriaDeArte1','1');"
                         Width="33%">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
 
                 </div>
@@ -197,9 +197,9 @@
                 <img id="I2" alt="" style="width: 100%;" src="#" />
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
-                <div style="width: 66%">
-                    GaleriaDeArte2 Q._
-                                    <input id="PrecioGaleriaDeArte2" class="label" type="text" />
+                 <div style="width: 100%">
+                   <a>GaleriaDeArte2 </a><div> <a>Price $</a> 
+                                    <input id="PrecioGaleriaDeArte2"class="label" type="text" readonly /></div>
                 </div>
                 <div>
                     <asp:DropDownList ID="CantidadGaleriaDeArte2" runat="server" AutoPostBack="False"
@@ -220,7 +220,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte2" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte2','2');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -233,8 +233,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte3 Q._
-              <input id="PrecioGaleriaDeArte3" class="label" type="text" />
+                   <a> GaleriaDeArte3 </a><div> <a>Price $</a> 
+              <input id="PrecioGaleriaDeArte3"class="label" type="text" readonly /></div>
                 </div>
                 <div style="width: 100%;">
                     <asp:DropDownList ID="CantidadGaleriaDeArte3" runat="server" AutoPostBack="False"
@@ -255,7 +255,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte3" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte3','3');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -267,8 +267,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte4 Q._
-                   <input id="PrecioGaleriaDeArte4" class="label" type="text" />
+                   <a> GaleriaDeArte4 </a><div> <a>Price $</a> 
+                   <input id="PrecioGaleriaDeArte4"class="label" type="text" readonly /></div>
                 </div>
                 <div style="width: 100%;">
                     <asp:DropDownList ID="CantidadGaleriaDeArte4" runat="server" AutoPostBack="False"
@@ -289,7 +289,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte4" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte4','4');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -301,8 +301,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte5 Q._
-                <input id="PrecioGaleriaDeArte5" class="label" type="text" />
+                  <a>  GaleriaDeArte5 </a><div> <a>Price $</a> 
+                <input id="PrecioGaleriaDeArte5"class="label" type="text" readonly /></div>
                 </div>
                 <div style="width: 100%;">
                     <asp:DropDownList ID="CantidadGaleriaDeArte5" runat="server" AutoPostBack="False"
@@ -323,7 +323,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte5" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte5','5');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -335,8 +335,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte6 &nbsp;&nbsp;&nbsp;Q._
-                  <input id="PrecioGaleriaDeArte6" class="label" type="text" />
+                  <a>  GaleriaDeArte6 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                  <input id="PrecioGaleriaDeArte6"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -358,7 +358,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte6" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte6','6');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -370,8 +370,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte7 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte7" class="label" type="text" />
+                  <a>  GaleriaDeArte7 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte7"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -393,7 +393,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte7" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte7','7');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -405,8 +405,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte8 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte8" class="label" type="text" />
+                  <a>  GaleriaDeArte8 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte8"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -428,7 +428,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte8" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte8','8');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -440,8 +440,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte9 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte9" class="label" type="text" />
+                   <a> GaleriaDeArte9 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte9"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -463,7 +463,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte9" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte9','9');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -475,8 +475,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte10 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte10" class="label" type="text" />
+                  <a>  GaleriaDeArte10 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte10"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -498,7 +498,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte10" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte10','10');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -510,8 +510,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte11 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte11" class="label" type="text" />
+                   <a> GaleriaDeArte11 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte11"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -532,7 +532,7 @@
                     </asp:DropDownList>
                     <asp:DropDownList ID="SelectGaleriaDeArte11" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%" onchange="MostrarIcono('GaleriaDeArte11','11');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -544,8 +544,8 @@
             </td>
             <td class="auto-style1" colspan="2" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte12 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte12" class="label" type="text" />
+                  <a>  GaleriaDeArte12 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte12"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -567,7 +567,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte12" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte12','12');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -579,8 +579,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte13 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte13" class="label" type="text" />
+                  <a>  GaleriaDeArte13 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte13"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -602,7 +602,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte13" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte13','13');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -614,8 +614,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte14 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte14" class="label" type="text" />
+                   <a> GaleriaDeArte14 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte14"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -637,7 +637,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte14" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte14','14');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -649,8 +649,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte15 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte15" class="label" type="text" />
+                 <a>   GaleriaDeArte15 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte15"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -671,7 +671,7 @@
                     </asp:DropDownList>
                     <asp:DropDownList ID="SelectGaleriaDeArte15" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%" onchange="MostrarIcono('GaleriaDeArte15','15');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -683,8 +683,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte16 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte16" class="label" type="text" />
+                   <a> GaleriaDeArte16 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte16"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -706,7 +706,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte16" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte16','16');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -718,8 +718,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte17 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte17" class="label" type="text" />
+                 <a>   GaleriaDeArte17 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte17"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -741,7 +741,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte17" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte17','17');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -753,8 +753,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte18 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte18" class="label" type="text" />
+                <a>    GaleriaDeArte18 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte18"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -776,7 +776,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte18" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte18','18');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -788,8 +788,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte19 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte19" class="label" type="text" />
+                  <a>  GaleriaDeArte19 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte19"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -811,7 +811,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte19" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte19','19');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -823,8 +823,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte20 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte20" class="label" type="text" />
+                  <a>  GaleriaDeArte20 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte20"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -846,7 +846,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte20" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte20','20');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -858,8 +858,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte21 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte21" class="label" type="text" />
+                  <a>  GaleriaDeArte21 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte21"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -881,7 +881,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte21" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte21','21');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -893,8 +893,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte22 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte22" class="label" type="text" />
+                 <a>   GaleriaDeArte22 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte22"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -916,7 +916,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte22" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte22','22');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -928,8 +928,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte23 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte23" class="label" type="text" />
+                 <a>   GaleriaDeArte23 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte23"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -951,7 +951,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte23" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte23','23');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -963,8 +963,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte24 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte24" class="label" type="text" />
+                   <a> GaleriaDeArte24 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte24"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -986,7 +986,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte24" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte24','24');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -998,8 +998,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte24 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte25" class="label" type="text" />
+                  <a>  GaleriaDeArte24 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte25"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1021,7 +1021,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte25" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte25','25');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1033,8 +1033,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte26 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte26" class="label" type="text" />
+                  <a>  GaleriaDeArte26 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte26"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1056,7 +1056,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte26" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte26','26');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1068,8 +1068,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte27 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte27" class="label" type="text" />
+                 <a>   GaleriaDeArte27 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte27"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1091,7 +1091,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte27" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte27','27');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1103,8 +1103,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte28 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte28" class="label" type="text" />
+                  <a>  GaleriaDeArte28 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte28"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1125,7 +1125,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte28" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte28','28');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1137,8 +1137,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte29 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte29" class="label" type="text" />
+                 <a>   GaleriaDeArte29 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte29"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1160,7 +1160,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte29" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte29','29');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1172,8 +1172,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte30 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte30" class="label" type="text" />
+                  <a>  GaleriaDeArte30 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte30"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1195,7 +1195,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte30" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte30','30');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1207,8 +1207,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte31 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte31" class="label" type="text" />
+                  <a>  GaleriaDeArte31 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte31"class="label" type="text" readonly /></div>
                 </div>
                 <div style="width: 100%;">
                     <asp:DropDownList ID="CantidadGaleriaDeArte31" runat="server" AutoPostBack="False"
@@ -1229,7 +1229,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte31" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte31','31');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1241,8 +1241,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte32 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte32" class="label" type="text" />
+                  <a>  GaleriaDeArte32 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte32"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1264,7 +1264,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte32" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte32','32');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1276,8 +1276,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte33 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte33" class="label" type="text" />
+                  <a>  GaleriaDeArte33 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte33"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1299,7 +1299,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte33" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte33','33');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1311,8 +1311,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte34 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte34" class="label" type="text" />
+                   <a> GaleriaDeArte34 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte34"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1334,7 +1334,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte34" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte34','34')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1346,8 +1346,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte35 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte35" class="label" type="text" />
+                  <a>  GaleriaDeArte35 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte35"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1369,7 +1369,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte35" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte35','35')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1381,8 +1381,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte36 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte36" class="label" type="text" />
+                   <a> GaleriaDeArte36 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte36"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1404,7 +1404,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte36" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte36','36')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1416,8 +1416,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte37 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte37" class="label" type="text" />
+                   <a> GaleriaDeArte37 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte37"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1439,7 +1439,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte37" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte37','37');">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1451,8 +1451,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte38 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte38" class="label" type="text" />
+                  <a>  GaleriaDeArte38 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte38"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1474,7 +1474,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte38" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte38','38')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1486,8 +1486,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte39 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte39" class="label" type="text" />
+                   <a> GaleriaDeArte39 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte39"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1509,7 +1509,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte39" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte39','39')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1521,8 +1521,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte40 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte40" class="label" type="text" />
+                  <a>  GaleriaDeArte40 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte40"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1544,7 +1544,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte40" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte40','40')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1556,8 +1556,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte41 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte41" class="label" type="text" />
+                   <a> GaleriaDeArte41 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte41"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1579,7 +1579,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte41" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte41','41')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1591,8 +1591,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte42 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte42" class="label" type="text" />
+                   <a> GaleriaDeArte42 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte42"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1614,7 +1614,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte42" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte42','42')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1626,8 +1626,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte43 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte43" class="label" type="text" />
+                  <a>  GaleriaDeArte43 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte43"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1649,7 +1649,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte43" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte43','43')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1661,8 +1661,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte44 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte44" class="label" type="text" />
+                   <a> GaleriaDeArte44 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte44"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1684,7 +1684,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte44" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte44','44')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1696,8 +1696,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte45 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte45" class="label" type="text" />
+                  <a>  GaleriaDeArte45 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte45"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1719,7 +1719,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte45" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte45','45')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1731,8 +1731,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte46 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte46" class="label" type="text" />
+                  <a>  GaleriaDeArte46 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte46"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1754,7 +1754,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte46" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte46','46')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1766,8 +1766,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte47 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte47" class="label" type="text" />
+                  <a>  GaleriaDeArte47 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte47"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1789,7 +1789,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte47" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte47','47')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1801,8 +1801,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte48 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte48" class="label" type="text" />
+                  <a>  GaleriaDeArte48 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte48"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1824,7 +1824,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte48" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte48','48')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1836,8 +1836,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte49 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte49" class="label" type="text" />
+                  <a>  GaleriaDeArte49 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte49"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1859,7 +1859,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte49" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte49','49')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1871,8 +1871,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte50 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte50" class="label" type="text" />
+                  <a>  GaleriaDeArte50 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte50"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1894,7 +1894,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte50" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte50','50')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1906,8 +1906,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte51 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte51" class="label" type="text" />
+                   <a> GaleriaDeArte51 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte51"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1929,7 +1929,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte51" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte51','51')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1941,8 +1941,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte52 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte52" class="label" type="text" />
+                   <a> GaleriaDeArte52 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte52"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1964,7 +1964,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte52" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte52','52')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -1976,8 +1976,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte53 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte53" class="label" type="text" />
+                   <a> GaleriaDeArte53 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte53"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -1999,7 +1999,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte53" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte53','53')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2011,8 +2011,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte54 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte54" class="label" type="text" />
+                  <a>  GaleriaDeArte54 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte54"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2034,7 +2034,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte54" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte54','54')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2046,8 +2046,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte55 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte55" class="label" type="text" />
+                   <a> GaleriaDeArte55 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte55"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2069,7 +2069,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte55" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte55','55')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2081,8 +2081,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte56 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte56" class="label" type="text" />
+                   <a> GaleriaDeArte56 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte56"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2104,7 +2104,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte56" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte56','56')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2116,8 +2116,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte57 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte57" class="label" type="text" />
+                   <a> GaleriaDeArte57 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte57"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2139,7 +2139,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte57" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte57','57')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2151,8 +2151,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte58 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte58" class="label" type="text" />
+                   <a> GaleriaDeArte58 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte58"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2174,7 +2174,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte58" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte58','58')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2186,8 +2186,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte59 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte59" class="label" type="text" />
+                   <a> GaleriaDeArte59 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte59"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2209,7 +2209,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte59" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte59','59')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2221,8 +2221,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte60 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte60" class="label" type="text" />
+                   <a> GaleriaDeArte60 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte60"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2244,7 +2244,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte60" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte60','60')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2256,8 +2256,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte61 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte61" class="label" type="text" />
+                   <a> GaleriaDeArte61 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte61"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2279,7 +2279,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte61" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte61','61')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2291,8 +2291,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte62 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte62" class="label" type="text" />
+                   <a> GaleriaDeArte62 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte62"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2314,7 +2314,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte62" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte62','62')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2326,8 +2326,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte63 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte63" class="label" type="text" />
+                   <a> GaleriaDeArte63 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte63"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2349,7 +2349,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte63" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte63','63')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2361,8 +2361,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte64 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte64" class="label" type="text" />
+                   <a> GaleriaDeArte64 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte64"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2384,7 +2384,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte64" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte64','64')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2396,8 +2396,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte65 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte65" class="label" type="text" />
+                   <a> GaleriaDeArte65 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte65"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2419,7 +2419,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte65" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte65','65')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2431,8 +2431,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte66 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte66" class="label" type="text" />
+                   <a> GaleriaDeArte66 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte66"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2454,7 +2454,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte66" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte66','66')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2466,8 +2466,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte67 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte67" class="label" type="text" />
+                   <a> GaleriaDeArte67 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte67"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2489,7 +2489,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte67" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte67','67')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2501,8 +2501,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte68 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte68" class="label" type="text" />
+                   <a> GaleriaDeArte68 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte68"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2524,7 +2524,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte68" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte68','68')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2536,8 +2536,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte69 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte69" class="label" type="text" />
+                   <a> GaleriaDeArte69 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte69"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2559,7 +2559,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte69" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte69','69')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2571,8 +2571,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte70 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte70" class="label" type="text" />
+                   <a> GaleriaDeArte70 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte70"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2594,7 +2594,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte70" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte70','70')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2606,8 +2606,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte71 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte71" class="label" type="text" />
+                   <a> GaleriaDeArte71 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte71"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2629,7 +2629,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte71" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte71','71')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2641,8 +2641,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte72 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte72" class="label" type="text" />
+                   <a> GaleriaDeArte72 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte72"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2664,7 +2664,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte72" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte72','72')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2676,8 +2676,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte73 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte73" class="label" type="text" />
+                  <a>  GaleriaDeArte73 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte73"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2699,7 +2699,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte73" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte73','73')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2711,8 +2711,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte74 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte74" class="label" type="text" />
+                   <a> GaleriaDeArte74 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte74"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2734,7 +2734,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte74" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte74','74')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2746,8 +2746,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte75 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte75" class="label" type="text" />
+                   <a> GaleriaDeArte75 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte75"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2769,7 +2769,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte75" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte75','75')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2781,8 +2781,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte76 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte76" class="label" type="text" />
+                   <a> GaleriaDeArte76 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte76"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2804,7 +2804,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte76" runat="server" AutoPostBack="False" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte76','76')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2816,8 +2816,8 @@
             </td>
             <td class="auto-style1" style="text-align: left;">
                 <div style="width: 100%">
-                    GaleriaDeArte77 &nbsp;&nbsp;&nbsp;Q._
-                    <input id="PrecioGaleriaDeArte77" class="label" type="text" />
+                   <a> GaleriaDeArte77 &nbsp;&nbsp;&nbsp;</a><div> <a>Price $</a> 
+                    <input id="PrecioGaleriaDeArte77"class="label" type="text" readonly /></div>
 
                 </div>
                 <div style="width: 100%;">
@@ -2839,7 +2839,7 @@
                     <asp:DropDownList ID="SelectGaleriaDeArte77" runat="server" AutoPostBack="True" CssClass="DropDownList"
                         Width="33%"
                         onchange="MostrarIcono('GaleriaDeArte77','77')">
-                        <asp:ListItem>unidades</asp:ListItem>
+                        <asp:ListItem>items</asp:ListItem>
                     </asp:DropDownList>
                 </div>
             </td>
@@ -2878,13 +2878,6 @@
         </tr>
         <tr>
             <td>
-                <div style="width: 50%;">
-                    <asp:Panel ID="Panel78" runat="server" Width="50%">
-                        <img alt="" src="#" id="Img77" />
-                        <asp:Label ID="Label1" runat="server" BackColor="Transparent" Font-Size="52px" ForeColor="Blue"
-                            Height="111px" Text="Enviando....." Width="380%"></asp:Label>
-                    </asp:Panel>
-                </div>
 
             </td>
         </tr>

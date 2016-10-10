@@ -151,6 +151,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProcesoDeImagenes.cs" />
     <Compile Include="Correo.cs" />
     <Compile Include="EnviandoCorreo.cs" />
     <Compile Include="FormulariosGaleriaDeArte\Comprar.aspx.cs">

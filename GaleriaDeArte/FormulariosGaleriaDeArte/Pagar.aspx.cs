@@ -195,7 +195,7 @@ namespace GaleriaDeArte
 
 
 
-                doc.Save(@"C:\XML\envioDetalle.XML", SaveOptions.None);
+              //  doc.Save(@"C:\XML\envioDetalle.XML", SaveOptions.None);
                 GfaceFactura.FactWSFront ws = new GfaceFactura.FactWSFront();
                 GfaceFactura.TransactionTag tagPruebas = new GfaceFactura.TransactionTag();
                 string factura = doc.ToString().Replace(",", ".");
@@ -266,6 +266,7 @@ namespace GaleriaDeArte
                 foreach (DataRow rw in producto.Rows)
                 {
                     file = address + rw[0].ToString() + ".bmp";
+                    ProcesoDeImagenes.GuardaImagen(file, _proforma);
                     System.IO.File.Delete(file);
                     Proceso.EjecutaSQL("update PreciosGaleriaDeArte set Cantidad = 0, Precio = 0,  Producto = '' where Nombre = '" + rw[0].ToString() + "'");
                 }
@@ -281,7 +282,6 @@ namespace GaleriaDeArte
             StringBuilder mensaje = new StringBuilder();
             mensaje.Append("Dear Customer");
             mensaje.AppendLine("");
-            mensaje.AppendLine("Thank you very much to your decision and the confidence placed in us.");
             mensaje.AppendLine("Your purchase code is : "+ _proforma +" .");
             mensaje.AppendLine("The Gallery owner will be contacting you soon.");
             mensaje.AppendLine("Any question can be received in this email : ");
@@ -291,8 +291,8 @@ namespace GaleriaDeArte
             {
                 mensaje.AppendLine(rw[0].ToString());
             }
-            mensaje.AppendLine("Atached to this mail we forward your invoice for the item.");
-            mensaje.AppendLine("Thank you for your purchase.");
+            mensaje.AppendLine("Atached to this e-mail is the invoice for the item.");
+            mensaje.AppendLine("Thank's for your purchase.");
             Correo.EnviarCorreoConAtachments(correo,mensaje,"Invoice Atached",archivo,"Invoice Atached");
 
             // ClientScript.RegisterStartupScript(this.GetType(), "Alert", "alert('The gallery owner will be contacting you soon.Transaction Ended.');", true);
