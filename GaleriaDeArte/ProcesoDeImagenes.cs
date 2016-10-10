@@ -11,9 +11,10 @@ public class ProcesoDeImagenes
 
     public static void GuardaImagen(string path, string codigo_compra)
     {
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hesselocal"].ToString()); //connection to the your database
         try
         {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hesselocal"].ToString()); //connection to the your database
+           
             FileStream FS = new FileStream(path, FileMode.Open, FileAccess.Read); //create a file stream object associate to user selected file
             byte[] img = new byte[FS.Length]; //create a byte array with size of user select file stream length
             FS.Read(img, 0, Convert.ToInt32(FS.Length));//read user selected file stream in to byte array
@@ -25,11 +26,15 @@ public class ProcesoDeImagenes
             cmd.Parameters.Add("@img", SqlDbType.Image).Value = img;//add parameter to the command object and set value to that parameter
             cmd.Parameters.Add("@codigo", SqlDbType.VarChar).Value = codigo_compra;
             cmd.ExecuteNonQuery();//execute command
+            con.Close();
+
         }
         catch (Exception ex)
         {
+            
             Helper.RegistrarEvento("Guarda Imagen " + ex.Message);
-             
+            if (con.State == ConnectionState.Open)//check whether connection to database is open or not
+                con.Close();//if connection is open then only close the connection
         }
 
 
