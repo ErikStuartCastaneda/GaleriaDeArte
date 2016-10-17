@@ -3477,10 +3477,6 @@ function AgregarValor(cual, precio) {
     }
 
 
-
-
-
-
 }
 
         function MostrarIcono(_nombre, cual) {

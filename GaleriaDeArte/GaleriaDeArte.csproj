@@ -42,6 +42,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="AjaxPro.JSON, Version=9.2.17.1, Culture=neutral, PublicKeyToken=4735ae9824c7d3ec">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\AjaxPro.JSON.dll</HintPath>
@@ -96,12 +100,14 @@
     <Content Include="bin\Microsoft.ReportViewer.Common.dll" />
     <Content Include="bin\Microsoft.ReportViewer.WebForms.dll" />
     <Content Include="bin\Verduras.sql" />
+    <Content Include="CImage.aspx" />
     <Content Include="css\Formulario1.css" />
     <Content Include="FormulariosGaleriaDeArte\Comprar.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Desbloqueo.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Factura.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Imagenes.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Pagar.aspx" />
+    <Content Include="FormulariosGaleriaDeArte\Pagar2.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Precios.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Rpt1.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Validar.aspx" />
@@ -151,6 +157,17 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CImage.aspx.cs">
+      <DependentUpon>CImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosGaleriaDeArte\Pagar.aspx.cs">
+      <DependentUpon>Pagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosGaleriaDeArte\Pagar.aspx.designer.cs">
+      <DependentUpon>Pagar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ProcesoDeImagenes.cs" />
     <Compile Include="Correo.cs" />
     <Compile Include="EnviandoCorreo.cs" />
@@ -182,12 +199,12 @@
     <Compile Include="FormulariosGaleriaDeArte\Imagenes.aspx.designer.cs">
       <DependentUpon>Imagenes.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FormulariosGaleriaDeArte\Pagar.aspx.cs">
-      <DependentUpon>Pagar.aspx</DependentUpon>
+    <Compile Include="FormulariosGaleriaDeArte\Pagar2.aspx.cs">
+      <DependentUpon>Pagar2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FormulariosGaleriaDeArte\Pagar.aspx.designer.cs">
-      <DependentUpon>Pagar.aspx</DependentUpon>
+    <Compile Include="FormulariosGaleriaDeArte\Pagar2.aspx.designer.cs">
+      <DependentUpon>Pagar2.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosGaleriaDeArte\Precios.aspx.cs">
       <DependentUpon>Precios.aspx</DependentUpon>

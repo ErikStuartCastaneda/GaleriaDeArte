@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 using Microsoft.Reporting.WebForms;
 using System.IO;
 using System.Xml.Linq;
 using System.Text;
 using System.Data;
 using System.Globalization;
-
+using System.Drawing.Imaging;
+using System.Web.UI;
 
 namespace GaleriaDeArte
 {
@@ -17,60 +16,85 @@ namespace GaleriaDeArte
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            try
-            {
-                string aut = Session["Autorizado"].ToString();
+            //try
+            //{
+            //    string aut = Session["Autorizado"].ToString();
 
-                if (aut != "Autorizado")
+            //    if (aut != "Autorizado")
+            //    {
+            //       //  Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
+            //        Response.Redirect("Validar.aspx");
+            //    }
+            //}
+            //catch (Exception)
+            //{
+
+            //    // Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
+            //    Response.Redirect("Validar.aspx");
+            //}
+
+            //try
+            //{
+
+
+            //    string codigo = Session["codigo"].ToString();
+            //    txtCodigoPedido.Text = codigo;
+
+            //    string compra = Proceso.RegresaCadena_1_Resultado("Select sum(Total) as Total from PedidosGaleriaDeArte where CodigoPedido = '"+ codigo +"'");
+            //    this.txtMontoAPagar.Text = compra;
+
+            //}
+            //catch (Exception)
+            //{
+            //  //   Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
+            //    Response.Redirect("Validar.aspx");
+            //}
+            //try
+            //{
+            //    string correo = Session["correo"].ToString();
+            //    txtCorreo.Text = correo;
+            //}
+            //catch (Exception)
+            //{
+            //    // Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
+            //    Response.Redirect("Validar.aspx");
+            //}
+
+            if (!IsPostBack)
+
+            {
+
+ 
+
+             if (!Page.ClientScript.IsStartupScriptRegistered(this.Page.GetType(), "imageUpdate"))
+
                 {
-                   //  Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
-                    Response.Redirect("Validar.aspx");
+                    ClientScript.RegisterStartupScript(this.GetType(), "imageUpdate", "cargar();", true);
+              
+
                 }
-            }
-            catch (Exception)
-            {
-
-                // Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
-                Response.Redirect("Validar.aspx");
-            }
-
-            try
-            {
-
-
-                string codigo = Session["codigo"].ToString();
-                txtCodigoPedido.Text = codigo;
-
-                string compra = Proceso.RegresaCadena_1_Resultado("Select sum(Total) as Total from PedidosGaleriaDeArte where CodigoPedido = '"+ codigo +"'");
-                this.txtMontoAPagar.Text = compra;
 
             }
-            catch (Exception)
-            {
-              //   Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
-                Response.Redirect("Validar.aspx");
-            }
-            try
-            {
-                string correo = Session["correo"].ToString();
-                txtCorreo.Text = correo;
-            }
-            catch (Exception)
-            {
-                // Response.Redirect("http://localhost:8080/FormulariosGaleriaDeArte/Validar.aspx");
-                Response.Redirect("Validar.aspx");
-            }
-
-        
-
-
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            if (this.txtimgcode.Text != this.Session["CaptchaImageText"].ToString())
+            {
+                this.lblMsgCaptcha.Text = "image code is not valid, try again.";
+                this.txtimgcode.Text = "";
+            }
+            else
+            {
+
+                this.lblMsgCaptcha.Text = "Paso";
+            }
+            return;
+
+
             TextReader tr = new StringReader(@"<?xml version=""1.0"" encoding=""UTF-8""?><FactDocGT xmlns=""http://www.fact.com.mx/schema/gt""    xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""    xsi:schemaLocation=""http://www.fact.com.mx/schema/gt http://www.mysuitemex.com/fact/schema/fx_2012_gt.xsd"">   <Version>2</Version></FactDocGT>");
             XDocument doc = new XDocument(XDocument.Load(tr, LoadOptions.None));
-            if (this.txtNombre.Text == "")
+            if (this.txtCodigoPedido.Text == "")
             {
                 this.lblMensajes.Text = "Fill up your name.";
                 return;
@@ -123,7 +147,7 @@ namespace GaleriaDeArte
             { NitComprador = "CF"; }
             decimal total = decimal.Parse(Proceso.RegresaCadena_1_Resultado("Select SUM(total) from PedidosGaleriaDeArte where CodigoPedido  ='" + _proforma + "' "));
             string totalletras = Proceso.RegresaCadena_1_Resultado("select dbo.CantidadConLetra(" + total.ToString().Replace(",", ".") + ")");
-            string NombreComercialComprador = this.txtNombre.Text;
+            string NombreComercialComprador = this.txtCodigoPedido.Text;
             string DireccionComercialComprador = "Ciudad";
             string MunicipioComprador = "Guatemala";
             string DepartamentoComprador = "Guatemala";
@@ -227,7 +251,7 @@ namespace GaleriaDeArte
                  //    string _regimenInfo = myXml.Element("Documento").Element(xnsp + "invoice").Element("extension").Element("informacionRegimenIsr").Value;
                  //  string _rango = " Serie " + _serieAutorizada + "  De Fecha " + _fecharesolucion + " Rangos Desde " + _rangoInicialAutorizado + " Hasta " + _rangoFinalAutorizado;
 
-                    Proceso.EjecutaSQL("update PedidosGaleriaDeArte set SAT_factura ='" + _factura + "' , SAT_cae = '" + _cae + "', DocUnicoSAT  = '" + documento_unico + "', Cliente ='" + this.txtNombre.Text.Trim() + "' , DireccionCliente = '" + this.txtDireccion.Text.Trim() + "', NitCliente = '" + this.txtNit.Text.Trim() + "'  where CodigoPedido = '" + _proforma + "' ");
+                    Proceso.EjecutaSQL("update PedidosGaleriaDeArte set SAT_factura ='" + _factura + "' , SAT_cae = '" + _cae + "', DocUnicoSAT  = '" + documento_unico + "', Cliente ='" + this.txtCodigoPedido.Text.Trim() + "' , DireccionCliente = '" + this.txtDireccion.Text.Trim() + "', NitCliente = '" + this.txtNit.Text.Trim() + "'  where CodigoPedido = '" + _proforma + "' ");
                     string infores = resolucion + " de fecha " + _fecharesolucion + " Serie Autorizada " + _serieAutorizada + " de " + _rangoInicialAutorizado + " a " + _rangoFinalAutorizado  ;
                     Proceso.EjecutaSQL("update DatosEmpresas set resolucion = '"+ infores  + "'  where Nit = '86203525' ");
                     Proceso.EjecutaSQL("Update PedidosGaleriaDeArte set transmision = 'Terminado' where  CodigoPedido = '" + _proforma + "'");
@@ -506,6 +530,24 @@ namespace GaleriaDeArte
 
 
             return el;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+            //if (this.txtimgcode.Text == this.Session["CaptchaImageText"].ToString())
+            //{
+            //    this.lblMsgCaptcha.Text = "Excellent.......";
+            //}
+            //else
+            //{
+            //    lblMsgCaptcha.Text = "Image code is not valid try again.";
+
+           // this.Image1.DataBind();
+
+            //}
+  
+
         }
     }
 

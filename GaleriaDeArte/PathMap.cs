@@ -37,7 +37,7 @@ using System.Web;
     {
         string path = "";
       //  path = HttpContext.Current.Server.MapPath("/GaleriaDeArte/") + @"ReportesGaleriaDeArte\FacturaGaleriaDeArte.rdlc";
-         path =HttpContext.Current.Server.MapPath("/ReportesGaleriaDeArte/") + @"FacturaGaleriaDeArte.rdlc";
+        path =HttpContext.Current.Server.MapPath("/ReportesGaleriaDeArte/") + @"FacturaGaleriaDeArte.rdlc";
         return path;
     }
    
