@@ -7,9 +7,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/Formulario1.css" />
+    <script src="https://www.grupo-hesse.com/js/jquery.min.js"></script>
+    <script src="https://www.grupo-hesse.com/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.grupo-hesse.com/css/Formulario1.css" />
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
     <title>Grupo Hesse</title>
 
@@ -26,7 +26,7 @@
                 <table  style="margin-right: auto; margin-left: auto;">
                     <tr>
                         <td style="text-align: center;">
-                            <asp:Image ID="Image2" runat="server" Height="62px" ImageUrl="~/Images/TarjetasDeCredito.png" Width="119px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                            <asp:Image ID="Image2" runat="server" Height="62px" ImageUrl="https://www.grupo-hesse.com/Images/TarjetasDeCredito.png" Width="119px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                     </tr>
                     <tr>
                         <td class="f4" style="font-family: Roboto; text-align: left; color: rgb(19, 27, 77); text-decoration: none; font-weight: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-transform: none;">Request Code/Codigo de Pedido:</td>
@@ -277,7 +277,7 @@
                                             <table class="f1" style="border-collapse: collapse; border: 1px solid rgb(159, 159, 159); cursor: default; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: Arial, Helvetica, sans-serif; text-align: left; color: rgb(19, 27, 77); text-decoration: none; font-weight: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-transform: none; margin-bottom: 0px; width: 150px; background-color: white;">
                                                 <tr>
                                                     <td class="f0" style="font-family: Arial, Helvetica, sans-serif; text-align: center; width: 142px; padding: 3px 3px 2px; overflow: hidden;">
-                                                        <asp:TextBox ID="txtMontoAPagar" runat="server" CssClass="dxeEditArea dxeEditAreaSys" Width="193px" onkeypress="return isNumberKey(event)" AutoCompleteType="Disabled"></asp:TextBox>
+                                                        <asp:TextBox ID="txtMontoAPagar" runat="server" CssClass="dxeEditArea dxeEditAreaSys" Width="193px" onkeypress="return isNumberKey(event)" AutoCompleteType="Disabled" ReadOnly="True"></asp:TextBox>
                                                     </td>
                                                     <td>&nbsp;&nbsp;<img alt="" class="auto-style2" src="../Images/Error.png" id="errMontoAsegurado" style="visibility: hidden" /></td>
                                                 </tr>
@@ -296,19 +296,25 @@
                     <tr>
                         <td class="f1" style="font-family: Arial, Helvetica, sans-serif; text-align: left; float: left;">
                             <div>
-                               <asp:TextBox ID="txtimgcode" runat="server"></asp:TextBox>
+                               <asp:TextBox ID="txtimgcode" runat="server" autocomplete="off"></asp:TextBox>
                                 <br />
                             <br />
-                               <asp:Image ID="Image1" runat="server" ImageUrl="~/CImage.aspx" Width="225px" />
+                               <asp:Image ID="Image1" runat="server"  Width="225px" Height="63px" />
                                    <br />
-                                <input id="Submit1" type="submit" value="New Captcha" />
-                            <br />
+                                &nbsp;<br />
+                                   <asp:Button ID="Button2" runat="server" OnClick="Button2_Click1" Text="New Captcha" Width="128px" />
                                                                 <br />
                                <asp:Label ID="lblMsgCaptcha" runat="server" Font-Bold="True"
                                     ForeColor="Red"></asp:Label>
+                         
                                </div>
             </td>
                 </tr>
+                    <tr>
+                        <td>
+                             <span class="f1" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal; font-family: Tahoma, Geneva, sans-serif;">
+                        </td>
+                    </tr>
                 <tr>
                     <td class="f5" style="font-family: Arial, Helvetica, sans-serif; text-align: center;" class="auto-style7">
                         <span class="f1" style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal; font-family: Tahoma, Geneva, sans-serif;">
@@ -322,7 +328,8 @@
                                     </td>
 
                                 </tr>
-                            </table></td>
+                            </table>
+                </td>
                 </tr>
             <tr>
                 <td class="f1" style="font-family: Arial, Helvetica, sans-serif; text-align: center;">
@@ -336,6 +343,7 @@
             </tr>
 
             </table>
+                       <asp:HiddenField ID="HiddenField1" runat="server" />
         </div>
         </div> 
  

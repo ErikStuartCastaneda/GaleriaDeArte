@@ -2892,7 +2892,12 @@
             </td>
         </tr>
     </table>
-
+    <div>
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
     <div id="divBackground" class="modal">
     </div>
     <div id="divImage">

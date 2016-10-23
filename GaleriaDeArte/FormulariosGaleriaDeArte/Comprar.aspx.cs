@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web;
+using System.Threading;
  
 
 namespace GaleriaDeArte
@@ -74,6 +75,7 @@ namespace GaleriaDeArte
 
             string CodigoPedido = Proceso.CodigoPedido(txtCorreo.Text);
             bool pedido = false;
+            Proceso.EjecutaSQL("Delete from PedidosGaleriaDeArte where CodigoPedido ='" + CodigoPedido + "'");
 
             try
             {
@@ -184,8 +186,17 @@ namespace GaleriaDeArte
             Session["Autorizado"] = "Autorizado";
             Session["codigo"] = CodigoPedido;
             Session["correo"] = this.txtCorreo.Text;
- 
-            Response.Redirect("Pagar.aspx");
+            try
+            {
+               // Response.Redirect("http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Pagar.aspx" );
+                Response.Redirect("https://www.grupo-hesse.com/FormulariosGaleriaDeArte/Pagar.aspx");
+            }
+            catch (Exception es)
+            {
+
+                Helper.RegistrarEvento("Llamando a pagar.aspx " + es.Message);
+            }
+           
         }
 
 

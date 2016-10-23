@@ -27,7 +27,7 @@ using System.Text;
             mail.Priority = MailPriority.High;
             mail.Attachments.Add(data);
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+            client.Credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
             client.Port = 26;  
             client.Host = "moon.studiocoast.com.au";
             client.EnableSsl = false; 
@@ -38,7 +38,7 @@ using System.Text;
             }
             catch (Exception ex)
             {
-                Helper.RegistrarEvento("Error de correo EnviarCorreoConAtachments : " + ex.Message);
+                Helper.RegistrarEvento("Error de correo EnviarCorreoConAtachments : "+ archivo + " err : " + ex.Message);
                 
             }  
         }
@@ -61,7 +61,7 @@ using System.Text;
             SmtpClient client = new SmtpClient();
             //Add the Creddentials- use your own email id and password
 
-            client.Credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+            client.Credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
 
             client.Port = 26; // Gmail works on this port
             client.Host = "moon.studiocoast.com.au";

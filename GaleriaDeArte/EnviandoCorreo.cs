@@ -213,7 +213,8 @@ using System.Net.Mail;
             EnviandoCorreo cr = new EnviandoCorreo();
             List<string> arc = new List<string>() { _to, subject, codigo, sql };
 
-
+        try
+        {
             if (codigo == "Pedido")
             {
                 Thread enviandoCorreo = new Thread(delegate ()
@@ -247,6 +248,13 @@ using System.Net.Mail;
                 enviandoCorreo.Start();
             }
             // 4. Se ejecuta el hilo:
+        }
+        catch (Exception e)
+        {
+
+            Helper.RegistrarEvento("Error al enviar el correo para : "+ _to +  " con el titulo "+ subject+ " error : " + e.Message);
+        }
+
 
 
 
@@ -267,7 +275,7 @@ using System.Net.Mail;
             }
             catch (Exception es)
             {
-                Helper.RegistrarEvento("No se pudo enviar" + " " + es.Message);
+                Helper.RegistrarEvento("No se pudo enviar el correo para " + para + " con el titulo "+ titulo  + " error: " + es.Message);
 
             }
 

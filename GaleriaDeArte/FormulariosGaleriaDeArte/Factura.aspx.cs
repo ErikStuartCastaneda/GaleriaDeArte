@@ -61,13 +61,5 @@ namespace GaleriaDeArte
         }
 
   
-
-    
-
- 
- 
-
-    
- 
     }
 }

@@ -100,12 +100,12 @@
     <Content Include="bin\Microsoft.ReportViewer.Common.dll" />
     <Content Include="bin\Microsoft.ReportViewer.WebForms.dll" />
     <Content Include="bin\Verduras.sql" />
-    <Content Include="CImage.aspx" />
     <Content Include="css\Formulario1.css" />
     <Content Include="FormulariosGaleriaDeArte\Comprar.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Desbloqueo.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Factura.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Imagenes.aspx" />
+    <Content Include="FormulariosGaleriaDeArte\Agradecimiento.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Pagar.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Pagar2.aspx" />
     <Content Include="FormulariosGaleriaDeArte\Precios.aspx" />
@@ -131,6 +131,7 @@
     <Content Include="js\jquery.min.js" />
     <Content Include="MainGA.Master" />
     <Content Include="FormulariosGaleriaDeArte\GaleriaDeArte.ashx" />
+    <Content Include="CImage.ashx" />
     <None Include="Properties\PublishProfiles\GaleriaDeArte.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -157,9 +158,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CImage.aspx.cs">
-      <DependentUpon>CImage.aspx</DependentUpon>
+    <Compile Include="FormulariosGaleriaDeArte\Agradecimiento.aspx.cs">
+      <DependentUpon>Agradecimiento.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosGaleriaDeArte\Agradecimiento.aspx.designer.cs">
+      <DependentUpon>Agradecimiento.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosGaleriaDeArte\Pagar.aspx.cs">
       <DependentUpon>Pagar.aspx</DependentUpon>

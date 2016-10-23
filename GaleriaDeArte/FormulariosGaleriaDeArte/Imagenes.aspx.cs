@@ -131,6 +131,8 @@ namespace GaleriaDeArte
             }
             string _producto = Proceso.RegresaCadena_1_Resultado("select FacturaDescripcion from FacturaGaleriaDeArte where Producto = '" + this.lblPosicion.Text + "'");
             Proceso.EjecutaSQL("Update PreciosGaleriaDeArte set Producto = '" + _producto + "', idproducto = '" + this.txtIdProducto.Text +"' , Cantidad = 1 where Nombre = '" + this.lblPosicion.Text + "'");
+            ProcesoDeImagenes.GuardaImagen(address, this.txtIdProducto.Text);
+
             this.lblMsg.Text = "Imagen Subida.";
 
         }
