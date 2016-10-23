@@ -296,7 +296,7 @@
                     <tr>
                         <td class="f1" style="font-family: Arial, Helvetica, sans-serif; text-align: left; float: left;">
                             <div>
-                               <asp:TextBox ID="txtimgcode" runat="server" autocomplete="off"></asp:TextBox>
+                               <asp:TextBox ID="txtimgcode" runat="server" autocomplete="off" Height="25px" Width="197px" AutoCompleteType="Disabled" ></asp:TextBox>
                                 <br />
                             <br />
                                <asp:Image ID="Image1" runat="server"  Width="225px" Height="63px" />

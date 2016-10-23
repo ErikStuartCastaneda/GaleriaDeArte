@@ -22,7 +22,7 @@ using System.Net.Mail;
                 message.IsBodyHtml = true;
                 SmtpClient client = new SmtpClient("moon.studiocoast.com.au");
                 client.Port = 26;
-                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
                 client.Credentials = credentials;
 
                 client.Timeout = 10000;
@@ -60,7 +60,7 @@ using System.Net.Mail;
                 message.IsBodyHtml = true;
                 SmtpClient client = new SmtpClient("moon.studiocoast.com.au");
                 client.Port = 26;
-                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
                 client.Credentials = credentials;
 
                 client.Timeout = 10000;
@@ -98,7 +98,7 @@ using System.Net.Mail;
                 message.IsBodyHtml = true;
                 SmtpClient client = new SmtpClient("moon.studiocoast.com.au");
                 client.Port = 26;
-                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
                 client.Credentials = credentials;
 
                 client.Timeout = 10000;
@@ -136,7 +136,7 @@ using System.Net.Mail;
                 message.IsBodyHtml = true;
                 SmtpClient client = new SmtpClient("moon.studiocoast.com.au");
                 client.Port = 26;
-                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
                 client.Credentials = credentials;
 
                 client.Timeout = 10000;
@@ -183,7 +183,7 @@ using System.Net.Mail;
                 SmtpClient client = new SmtpClient();
                 //Add the Creddentials- use your own email id and password
 
-                client.Credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com ", "HesseGo2016");
+                client.Credentials = new System.Net.NetworkCredential("Mensaje@grupo-hesse.com", "HesseGo2016");
 
                 client.Port = 26; // Gmail works on this port
                 client.Host = "moon.studiocoast.com.au";

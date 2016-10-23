@@ -63,6 +63,8 @@ namespace GaleriaDeArte
             if (txtCorreo.Text == "" || txtCorreo.Text.ToString().IndexOf("@") == -1)
             {
                 this.lblMsg.Text = "Ingrese su correo nuevamente'";
+                this.lblMsg.ForeColor = System.Drawing.Color.Red;
+                CargarImagenes();
                 return;
             }
             string para = "";
@@ -70,6 +72,8 @@ namespace GaleriaDeArte
             if (para.IndexOf("@") == -1)
             {
                 this.lblMsg0.Text = "Debes ingresar un correo valido.";
+                this.lblMsg0.ForeColor = System.Drawing.Color.Red;
+                CargarImagenes();
                 return;
             }
 
@@ -162,11 +166,14 @@ namespace GaleriaDeArte
             {
 
                 Helper.RegistrarEvento("Guardando Pedido pagina principal " + " "  + es.Message);
+                this.lblMsg0.ForeColor = System.Drawing.Color.Red;
                 this.lblMsg0.Text = es.Message;
             }
             if (pedido == false)
             {
                 this.lblMsg0.Text = "Select an item./Escoja un articulo.";
+                this.lblMsg0.ForeColor = System.Drawing.Color.Red;
+                CargarImagenes();
                 return;
             }
 
