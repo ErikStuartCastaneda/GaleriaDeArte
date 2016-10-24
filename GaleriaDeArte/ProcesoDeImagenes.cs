@@ -12,7 +12,7 @@ public class ProcesoDeImagenes
     public static void GuardaImagen(string path, string codigo_compra)
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["hesselocal"].ToString()); //connection to the your database
-        FileStream FS = new FileStream(path, FileMode.Open, FileAccess.Read);
+        FileStream FS = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
 
         try
         {
