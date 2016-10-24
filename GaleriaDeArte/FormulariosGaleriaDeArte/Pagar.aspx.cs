@@ -144,7 +144,7 @@ namespace GaleriaDeArte
             { NitComprador = "CF"; }
             decimal total = decimal.Parse(Proceso.RegresaCadena_1_Resultado("Select SUM(total) from PedidosGaleriaDeArte where CodigoPedido  ='" + _proforma + "' "));
             string totalletras = Proceso.RegresaCadena_1_Resultado("select dbo.CantidadConLetra(" + total.ToString().Replace(",", ".") + ")");
-            string NombreComercialComprador = this.txtCodigoPedido.Text;
+            string NombreComercialComprador = this.txtNombre.Text;
             string DireccionComercialComprador = "Ciudad";
             string MunicipioComprador = "Guatemala";
             string DepartamentoComprador = "Guatemala";

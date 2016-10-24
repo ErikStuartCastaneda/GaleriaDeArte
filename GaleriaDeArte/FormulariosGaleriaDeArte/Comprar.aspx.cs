@@ -195,8 +195,8 @@ namespace GaleriaDeArte
             Session["correo"] = this.txtCorreo.Text;
             try
             {
-               // Response.Redirect("http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Pagar.aspx" );
-                Response.Redirect("https://www.grupo-hesse.com/FormulariosGaleriaDeArte/Pagar.aspx");
+            //   Response.Redirect("http://localhost:8080/GaleriaDeArte/FormulariosGaleriaDeArte/Pagar.aspx" );
+               Response.Redirect("https://www.grupo-hesse.com/FormulariosGaleriaDeArte/Pagar.aspx");
             }
             catch (Exception es)
             {

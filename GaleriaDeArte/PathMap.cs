@@ -15,7 +15,7 @@ using System.Web;
     public static string ServerPath()
     {
         string path = "";
-      //    path = HttpContext.Current.Server.MapPath("/GaleriaDeArte/GaleriaDeArte/");
+     //     path = HttpContext.Current.Server.MapPath("/GaleriaDeArte/GaleriaDeArte/");
          path = HttpContext.Current.Server.MapPath("/GaleriaDeArte/");
         return path;
     }
