@@ -248,7 +248,7 @@ namespace GaleriaDeArte
                  //    string _regimenInfo = myXml.Element("Documento").Element(xnsp + "invoice").Element("extension").Element("informacionRegimenIsr").Value;
                  //  string _rango = " Serie " + _serieAutorizada + "  De Fecha " + _fecharesolucion + " Rangos Desde " + _rangoInicialAutorizado + " Hasta " + _rangoFinalAutorizado;
 
-                    Proceso.EjecutaSQL("update PedidosGaleriaDeArte set SAT_factura ='" + _factura + "', transmision = 'Terminado' , SAT_cae = '" + _cae + "', DocUnicoSAT  = '" + documento_unico + "', Cliente ='" + this.txtCodigoPedido.Text.Trim() + "' , DireccionCliente = '" + this.txtDireccion.Text.Trim() + "', NitCliente = '" + this.txtNit.Text.Trim() + "'  where CodigoPedido = '" + _proforma + "' ");
+                    Proceso.EjecutaSQL("update PedidosGaleriaDeArte set SAT_factura ='" + _factura + "', transmision = 'Terminado' , SAT_cae = '" + _cae + "', DocUnicoSAT  = '" + documento_unico + "', Cliente ='" +  NombreComercialComprador + "' , DireccionCliente = '" + this.txtDireccion.Text.Trim() + "', NitCliente = '" + this.txtNit.Text.Trim() + "'  where CodigoPedido = '" + _proforma + "' ");
                     string infores = resolucion + " de fecha " + _fecharesolucion + " Serie Autorizada " + _serieAutorizada + " de " + _rangoInicialAutorizado + " a " + _rangoFinalAutorizado  ;
                     Proceso.EjecutaSQL("update DatosEmpresas set resolucion = '"+ infores  + "'  where Nit = '86203525' ");
 
